@@ -1,0 +1,20 @@
+{
+  "Home": {
+    "Title1": "Unlimited movies, TV shows, and more"
+  },
+  "Header": {
+    "ButtonLogin": "Sign In"
+  },
+  "GetStarted": {
+    "Title": "Unlimited movies, TV shows, and more",
+    "SubTitle": "Watch anywhere. Cancel anytime.",
+    "p": "Ready to watch? Enter your email to create or restart your membership.",
+    "placeholder": "Email address",
+    "ButtonStarted": "Get Started"
+  },
+  "AdsPlan": {
+    "Title": "The Netflix you love for just $6.99.",
+    "SubTitle": "Get the Standard with ads plan.",
+    "Button": "Learn More"
+  }
+}

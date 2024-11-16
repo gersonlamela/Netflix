@@ -1,0 +1,20 @@
+{
+  "Home": {
+    "Title1": "Filmes, séries e muito mais, sem limites"
+  },
+  "Header": {
+    "ButtonLogin": "Iniciar Sessão"
+  },
+  "GetStarted": {
+    "Title": "Filmes, séries e muito mais, sem limites",
+    "SubTitle": "Veja onde quiser. Cancele a qualquer momento.",
+    "p": "Pronto para ver? Introduza o seu e-mail para criar ou reiniciar a sua adesão.",
+    "placeholder": "Endereço de e-mail",
+    "ButtonStarted": "Começar"
+  },
+  "AdsPlan": {
+    "Title": "O Netflix que adora por apenas 6,99€.",
+    "SubTitle": "Obtenha o plano Standard com anúncios.",
+    "Button": "Saber Mais"
+  }
+}
