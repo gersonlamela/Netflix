@@ -7,7 +7,7 @@ import {
 
 export function Faq() {
   return (
-    <div className="w-full bg-black px-[168px]">
+    <div className="w-full bg-black px-[50px] lg:px-[168px]">
       <h1 className="text-[48px] font-bold text-primary-white text-center mt-[72px] mb-[24px]">
         Frequently Asked Questions
       </h1>

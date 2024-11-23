@@ -1,10 +1,10 @@
 "use client";
 
 import AdsPlan from "@/components/ads-plan";
-import ButtonGetStarted from "@/components/button-get-started";
+import ButtonGetStarted from "@/components/get-started";
 import { Faq } from "@/components/faq";
 import Footer from "@/components/footer";
-import GetStarted from "@/components/get-started";
+import GetStarted from "@/components/home-preview";
 import Header from "@/components/header";
 import Image from "next/image";
 
@@ -22,21 +22,19 @@ export default function Home() {
         />
 
         <div className="h-screen flex flex-col w-full items-center justify-between">
-          <div className="w-full px-[168px]">
-            <Header />
-          </div>
+          <Header />
 
           <GetStarted />
 
           <AdsPlan />
         </div>
 
-        <div className="h-[558px] flex flex-row items-center justify-center gap-[12px] w-full px-[168px] bg-black">
-          <div className="max-w-[546px] flex h-full items-start justify-center flex-col">
-            <h1 className="text-[48px] font-bold text-primary-white">
+        <div className="h-[558px] flex flex-col lg:flex-row items-center justify-center lg:gap-[12px] w-full px-[50px]  lg:px-[168px] bg-black">
+          <div className="w-full text-center lg:max-w-[546px] flex h-full items-start justify-center flex-col">
+            <h1 className=" text-[35px] lg:text-[48px] text-center w-full font-bold text-primary-white">
               Enjoy on your TV
             </h1>
-            <p className="text-[24px] text-primary-white font-normal">
+            <p className="text-[20px] lg:text-[20px] lg:text-[24px] text-primary-white font-normal">
               Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV,
               Blu-ray players, and more.
             </p>
@@ -53,7 +51,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="h-[558px] flex flex-row items-center justify-center gap-[12px] w-full px-[168px] bg-black border-y-[4px] border-gray-600 ">
+        <div className="h-[558px] flex flex-col lg:flex-row items-center justify-center lg:gap-[12px] w-full px-[50px]   border-y-[4px] border-gray-600 ">
           <div>
             <Image
               src="/ScreensPreview2.png"
@@ -64,22 +62,22 @@ export default function Home() {
             />
           </div>
           <div className="max-w-[546px] flex h-full items-start justify-center flex-col">
-            <h1 className="text-[48px] font-bold text-primary-white">
+            <h1 className="text-[35px] lg:text-[48px] text-center  w-full  font-bold text-primary-white">
               Watch everywhere
             </h1>
-            <p className="text-[24px] text-primary-white font-normal">
+            <p className="text-[20px] lg:text-[24px] text-primary-white font-normal">
               Stream unlimited movies and TV shows on your phone, tablet,
               laptop, and TV.
             </p>
           </div>
         </div>
 
-        <div className="h-[558px] flex flex-row items-center justify-center gap-[12px] w-full px-[168px] bg-black">
+        <div className="h-[558px] flex flex-col lg:flex-row items-center justify-center lg:gap-[12px] w-full px-[50px]  lg:px-[168px] bg-black">
           <div className="max-w-[546px] flex h-full items-start justify-center flex-col">
-            <h1 className="text-[48px] font-bold text-primary-white">
+            <h1 className="text-[35px] lg:text-[48px] text-center w-full font-bold text-primary-white">
               Create profiles for kids
             </h1>
-            <p className="text-[24px] text-primary-white font-normal">
+            <p className="text-[20px] lg:text-[24px] text-primary-white font-normal">
               Send kids on adventures with their favorite characters in a space
               made just for them—free with your membership.
             </p>
@@ -96,7 +94,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="h-[558px] flex flex-row items-center justify-center gap-[12px] w-full px-[168px] bg-black border-y-[4px] border-gray-600 ">
+        <div className="h-[558px] flex flex-col lg:flex-row items-center justify-center lg:gap-[12px] w-full px-[50px]   border-y-[4px] border-gray-600 ">
           <div>
             <Image
               src="/ScreensPreview4.png"
@@ -107,10 +105,10 @@ export default function Home() {
             />
           </div>
           <div className="max-w-[546px] flex h-full items-start justify-center flex-col">
-            <h1 className="text-[48px] font-bold text-primary-white">
+            <h1 className="text-[35px] lg:text-[48px]  w-full  text-center font-bold text-primary-white">
               Download your shows to watch offline
             </h1>
-            <p className="text-[24px] text-primary-white font-normal">
+            <p className="text-[20px] lg:text-[24px] text-primary-white font-normal">
               Watch on a plane, train, or submarine...
             </p>
           </div>

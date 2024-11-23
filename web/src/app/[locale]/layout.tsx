@@ -43,10 +43,12 @@ interface RootLayoutProps {
 
 export default async function RootLayout({
   children,
-  params: { locale },
+  params,
 }: Readonly<RootLayoutProps>) {
   // Ensure that the incoming `locale` is valid
-  if (!routing.locales.includes(locale as any)) {
+
+  const { locale } = await params;
+  if (!routing.locales.includes(locale as never)) {
     return (
       <html lang={locale}>
         <body className={`${netflixSans.className} antialiased`}>
@@ -63,7 +65,9 @@ export default async function RootLayout({
 
   return (
     <html lang={locale}>
-      <body className={`${netflixSans.className} antialiased bg-black`}>
+      <body
+        className={`${netflixSans.className} antialiased bg-black text-primary-white`}
+      >
         <NextIntlClientProvider messages={messages}>
           {children}
           <Toaster />

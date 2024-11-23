@@ -17,15 +17,15 @@ export default function AdsPlan() {
           quality={100}
         />
         <div>
-          <p className="text-primary-white text-[25px] font-bold">
+          <p className="text-primary-white text-[20px] lg:text-[25px] font-bold">
             {t("Title")}
           </p>
-          <p className="text-primary-white text-[16px] font-normal">
+          <p className="text-primary-white text-[14px] lg:text-[16px] font-normal">
             {t("SubTitle")}
           </p>
           <a
             href="#"
-            className="text-blue-400 underline flex items-center justify-start font-medium text-[18px]"
+            className="text-blue-400 underline flex items-center justify-start font-medium text-[16px] lg:text-[18px]"
           >
             {t("Button")} <ChevronRight size={30} className="ml-[4px]" />
           </a>
